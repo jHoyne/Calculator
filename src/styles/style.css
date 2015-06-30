@@ -1,7 +1,7 @@
 button.number {
     width:40px;
 }
-button.number:hover, button#numberC:hover {
+button.number:hover, button.numberC:hover {
     color:magenta;
 }
 button.add {
