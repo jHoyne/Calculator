@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <title>Basic Calculator</title>
+        <meta charset="UTF-8">
+        <script language="javascript" type="text/javascript" src="scripts/basic.js"></script>
+    </head>
+    <body>
+        <div id="one">
+            <button type="button" id="number" title="One"><b>1</b></button>
+            <button type="button" id="add" onClick=add_one() title="Add One">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_one() title="Subtract One">&minus;</button>
+        </div>
+        <div id="two">
+            <button type="button" id="number" title="Two"><b>2</b> </button>
+            <button type="button" id="add" onClick=add_two() title="Add Two">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_two() title="Subtract Two">&minus;</button>
+            <button type="button" id="multiply" onClick=multiply_two() title="Multiply by Two">&lowast;</button>
+            <button type="button" id="divide" onClick=divide_two() title="Divide By Two">&divide;</button>
+        </div>
+        <div id="three">
+            <button type="button" id="number" title="Three"><b>3</b> </button>
+            <button type="button" id="add" onClick=add_three() title="Add Three">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_three() title="Subtract Three">&minus;</button>
+            <button type="button" id="multiply" onClick=multiply_three() title="Multiply by Three">&lowast;</button>
+            <button type="button" id="divide" onClick=divide_three() title="Divide by Three">&divide;</button>
+        </div>
+        <div id="four">
+            <button type="button" id="number" title="Four"><b>4</b></button>
+            <button type="button" id="add" onClick=add_four() title="Add Four">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_four() title="Subtract FOur">&minus;</button>
+            <button type="button" id="multiply" onClick=multiply_four() title="Multiply by Four">&lowast;</button>
+            <button type="button" id="divide" onClick=divide_four() title="Divide by Four">&divide;</button>
+        </div>
+        <div id="five">
+            <button type="button" id="number" title="Five"><b>5</b></button>
+            <button type="button" id="add" onClick=add_five() title="Add Five">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_five() title="Subtract Five">&minus;</button>
+            <button type="button" id="multiply" onClick=multiply_five() title="Multiply by Five">&lowast;</button>
+            <button type="button" id="divide" onClick=divide_five() title="Divide by Five">&divide;</button>
+        </div>
+        <div id="ten">
+            <button type="button" id="number" title="Ten"><b>10</b></button>
+            <button type="button" id="add" onCLick=add_ten() title="Add Ten">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_ten() title="Subtract Ten">&minus;</button>
+            <button type="button" id="multiply" onClick=multiply_ten() title="Multiply by Ten">&lowast;</button>
+            <button type="button" id="divide" onClick=divide_ten() title="Divide by Ten">&divide;</button>
+        </div>
+        <div id="fifty">
+            <button type="button" id="number" title="Fifty"><b>50</b></button>
+            <button type="button" id="add" onClick=add_fifty() title="Add Fifty">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_fifty() title="Subtract Fifty">&minus;</button>
+        </div>
+        <div id="hundred">
+            <button type="button" id="number" title="One Hundred"><b>100</b></button>
+            <button type="button" id="add" onClick=add_hundred() title="Add One Hundred">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_hundred() title="Subtract One Hundred">&minus;</button>
+        </div>
+        <div id="fivehundred">
+            <button type="button" id="number" title="Five Hundred"><b>500</b></button>
+            <button type="button" id="add" onClick=add_five_hundred() title="Add Five Hundred">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_five_hundred() title="Subtract Five Hundred">&minus;</button>
+        </div>
+        <div id="thousand">
+            <button type="button" id="number" Title="One Thousand"><b>1000</b></button>
+            <button type="button" id="add" onClick=add_thousand() title="Add One Thousand">&plus;</button>
+            <button type="button" id="subtract" onClick=sub_thousand() title="Subtract One Thousand">&minus;</button>
+        </div>
+        <div id="customA">
+            <button type="button" id="numberC"><b>Custom</b></button>
+            <button type="button" id="addC" onClick=custom_add()>&plus;</button>
+            <button type="button" id="subtract" onClick=custom_sub()>&minus;</button>
+            <button type="button" id="multiply" onClick=custom_multiply()>&lowast;</button>
+            <button tpye="button" id="divide" onClick=custom_divide()>&divide;</button>
+        </div>
+        <div id="final" title="Count">0</div>
+        <div id="reset">
+            <button type="button" onClick=reset() id="reset" title="Reset Count">Clear</button>
+        </div>
+    </body>
+</html>
