@@ -1,51 +1,51 @@
-button#number {
+button.number {
     width:40px;
 }
-button#number:hover, button#numberC:hover {
+button.number:hover, button#numberC:hover {
     color:magenta;
 }
-button#add {
+button.add {
     width:20px;
 }
-button#addC {
+button.addC {
     width:20px;
 }
-button#add:hover {
+button.add:hover {
     color:teal;
 }
-button#addC:hover {
+button.addC:hover {
     color:teal;
 }
-button#subtract {
+button.subtract {
     width:20px;
 }
-button#subtract:hover {
+button.subtract:hover {
     color:gold;
 }
-button#multiply {
+button.multiply {
     width:20px;
 }
-button#multiply:hover {
+button.multiply:hover {
     color:royalblue;
 }
-button#divide {
+button.divide {
     width:20px;
 }
-button#divide:hover {
+button.divide:hover {
     color:darkorange;
 }
-button#reset {
+button.reset {
     width:150px;
 }
-button#reset:hover {
+button.reset:hover {
     color:tomato;
 }
-div#one, div#two, div#three, div#four, div#five, div#ten {
+div.one, div.two, div.three, div.four, div.five, div.ten {
     width:170px;
 }
-div#fifty, div#hundred, div#fivehundred, div#thousand {
+div.fifty, div.hundred, div.fivehundred, div.thousand {
     width:170px;
 }
-div#customA, div#reset {
+div.customA, div.reset {
     width:170px;
 }
