@@ -88,7 +88,3 @@ function add_thousand() {
     console.log("Added One Thousand(1000)");
     console.log(count);
 }
-// Add Custom
-function custom_add() {
-    alert("This is not possible currently I will find a workaround.\nIt is not possible because of the '+' being adding the var rather than the numbers behind the var");
-}
