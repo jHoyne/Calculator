@@ -16,6 +16,9 @@ button.subtract {
 button.subtract:hover {
     color:gold;
 }
+button#subC {
+  margin-left: 1px;
+}
 button.multiply {
     width:20px;
 }
