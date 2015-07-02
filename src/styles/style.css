@@ -34,6 +34,9 @@ button.divide {
 button.divide:hover {
     color:darkorange;
 }
+button.fifty-d {
+    margin-left:20px;
+}
 button.reset {
     width:150px;
 }

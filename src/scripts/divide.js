@@ -44,6 +44,33 @@ function divide_ten() {
     console.log("Divided by Ten(10)");
     console.log(count);
 }
+// Divides by Fifty
+function divide_fifty(){
+    var total = count / 50;
+    document.getElementById('final').innerHTML = total;
+    if (count !== count);
+    count = total;
+    console.log("Divided by Fifty(50)");
+    console.log(count);
+}
+// Divides by One Hundred
+function divide_hundred(){
+    var total = count / 100;
+    document.getElementById('final').innerHTML = total;
+    if (count !== count);
+    count = total;
+    console.log("Divided by One Hundred(100)");
+    console.log(count);
+}
+// Divides by One Thousand
+function divide_thousand(){
+    var total = count / 1000;
+    document.getElementById('final').innerHTML = total;
+    if (count = count);
+    count = total;
+    console.log("Divided by One Thousand");
+    console.log(count);
+}
 // Divides Custom Number
 function custom_divide() {
     var custom = prompt("Enter a Number to Divide the count by");
