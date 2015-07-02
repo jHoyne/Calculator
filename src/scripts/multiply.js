@@ -43,6 +43,24 @@ function multiply_ten() {
     console.log("Multiplied by Ten");
     console.log(count);
 }
+// Multiplies by One Hundred
+function multiply_hundred(){
+    var total = count * 100;
+    document.getElementById('final').innerHTML = total;
+    if (count !== count);
+    count = total;
+    console.log("Multiply count by 100");
+    console.log(count);
+}
+// Multiplies by One Thousand
+function multiply_thousand(){
+    var total = count * 1000;
+    document.getElementById('final').innerHTML = total;
+    if (count !== count);
+    count = total;
+    console.log("Multiply by One Thousand");
+    console.log(count);
+}
 // Multiplies Custom Number
 function custom_multiply() {
     var custom = prompt("Enter a Number to Multiply the count by");
