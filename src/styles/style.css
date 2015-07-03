@@ -6,6 +6,7 @@ button.number:hover, button.numberC:hover {
     color:magenta;
 }
 button.fraction {
+    width:40px;
     margin-left:.01px;
 }
 button.add {
