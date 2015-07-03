@@ -8,12 +8,12 @@ var threeEight = 3 / 8; // 0.375
 var twoFive = 2 / 5; // 0.4
 var half = 1 / 2; // 0.5
 var threeFive = 3 / 5; // 0.6
-var fiveEight = 5 / 8; //* 0.625
-var twoThree = 2 / 3; //* 0.66
-var threeFour = 3 / 4; //* 0.75
-var fourFive = 4 / 5; //* 0.8
-var fiveSix = 5 / 6; //* 0.83
-var sevenEight = 7 / 8; //* 0.875
+var fiveEight = 5 / 8; // 0.625
+var twoThree = 2 / 3; // 0.66
+var threeFour = 3 / 4; // 0.75
+var fourFive = 4 / 5; // 0.8
+var fiveSix = 5 / 6; // 0.83
+var sevenEight = 7 / 8; // 0.875
 // Addition
 // 
 function add_oneEight() {
