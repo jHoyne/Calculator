@@ -1,2 +1,20 @@
-.colOne{float:left; width:250px; margin-right:-3px;}
-.colTwo{float:right; width: 300px; margin-left:-3px;}
+.colOne {
+    float:left;
+    width:250px;
+    margin-right:-3px;
+}
+.colTwo {
+    float:right;
+    width: 300px;
+    margin-left:-3px;
+}
+.body {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
