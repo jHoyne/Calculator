@@ -53,3 +53,6 @@ div.fifty, div.hundred, div.fivehundred, div.thousand {
 div.customA, div.reset {
     width:170px;
 }
+div.final, button#final {
+    width:200px;
+}
