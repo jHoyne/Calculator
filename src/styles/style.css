@@ -7,18 +7,15 @@ button.number:hover, button.numberC:hover {
 }
 button.fraction {
     width:40px;
-    margin-left:.01px;
 }
 button.add {
     width:20px;
-    margin-left:.01px;
 }
 button.add:hover {
     color:teal;
 }
 button.subtract {
     width:20px;
-    margin-left:.01px;
 }
 button.subtract:hover {
     color:gold;
@@ -28,14 +25,12 @@ button#subC {
 }
 button.multiply {
     width:20px;
-    margin-left:.01px;
 }
 button.multiply:hover {
     color:royalblue;
 }
 button.divide {
     width:20px;
-    margin-left:.01px;
 }
 button.divide:hover {
     color:darkorange;
