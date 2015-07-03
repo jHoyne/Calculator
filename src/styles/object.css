@@ -17,4 +17,6 @@
     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    column-width: 200px;
 }
