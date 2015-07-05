@@ -25,7 +25,6 @@ function divide_four() {
     console.log("Divided by Four(4)");
     console.log(count);
 }
-
 // Divide Five
 function divide_five() {
     var total = count / 5;
