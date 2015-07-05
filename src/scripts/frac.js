@@ -111,7 +111,7 @@ function add_twoThree() {
     document.getElementById('final').innerHTML = total;
     if (count !== count);
     count = total;
-    console.log("Added Two Thirds(0.63)");
+    console.log("Added Two Thirds(0.66)");
     console.log(count);
 }
 
@@ -247,7 +247,7 @@ function sub_twoThree() {
     document.getElementById('final').innerHTML = total;
     if (count !== count);
     count = total;
-    console.log("Subtracted Two Thirds(0.33)");
+    console.log("Subtracted Two Thirds(0.66)");
     console.log(count);
 }
 
