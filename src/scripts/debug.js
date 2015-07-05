@@ -1,6 +1,6 @@
-function debug_basic(){
+function debug_basicAddSub(){
     console.log("Addition");
-    console.log("count should be 0 and count =" + count);
+    console.log("count should be 0 and count = " + count);
     add_one();
     add_two();
     add_three();
@@ -11,8 +11,7 @@ function debug_basic(){
     add_hundred();
     add_five_hundred();
     add_thousand();
-    console.log("count should be '1675' and count =" + count);
-    debugger;
+    console.log("count should be '1675' and count = " + count);
     console.log("subtraction");
     sub_one();
     sub_two();
@@ -24,8 +23,9 @@ function debug_basic(){
     sub_hundred();
     sub_five_hundred();
     sub_thousand();
-    console.log("count should be '0' and count =" + count);
-    debugger;
+    console.log("count should be '0' and count = " + count);
+}
+function debug_basicMultiplyDivide(){
     console.log("Multiplication");
     count = 50;
     multiply_two();
@@ -35,8 +35,7 @@ function debug_basic(){
     multiply_ten();
     multiply_hundred();
     multiply_thousand();
-    console.log("count should be '6000000000' and count =" + count);
-    debugger;
+    console.log("count should be '6000000000' and count = " + count);
     console.log("Division");
     divide_two();
     divide_three();
@@ -46,7 +45,5 @@ function debug_basic(){
     divide_fifty();
     divide_hundred();
     divide_thousand();
-    console.log("count should be '1' and count =" + count);
-    debugger;
-    reset();
+    console.log("count should be '1' and count = " + count);
 }
