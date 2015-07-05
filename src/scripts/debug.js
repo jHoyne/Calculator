@@ -46,6 +46,7 @@ function debug_basic(){
     divide_fifty();
     divide_hundred();
     divide_thousand();
-    console.log("count should be '50' and count =" + count);
+    console.log("count should be '1' and count =" + count);
     debugger;
+    reset();
 }
