@@ -13,7 +13,6 @@ function reset() {
 function EnableDevMode(){
     var docHead = document.head;
     var script = document.createElement ('script');
-    script.language = 'javascript';
     script.type = 'text/javascript';
     script.src = 'scripts/debug.js';
     script.async = false;
