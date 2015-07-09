@@ -17,5 +17,5 @@ function EnableDevMode(){
     script.src = 'scripts/debug.js';
     script.async = false;
    
-    docHead.appendChild (script);
+    docHead.removeChild (script);
 }
