@@ -1,10 +1,5 @@
 //Global Variables
 var count = 0;
-// Thanks
-thanks()
-function thanks(){
-    alert('Thank you for using my software I did not expect pay for this code, If you run into any issues/suggestions they can be reported at https://github.com/jHoyne/calculator');
-}
 //Clears Value of 'final'
 function reset() {
     count = 0;
@@ -13,4 +8,14 @@ function reset() {
     count = count;
     console.log("Cleared Count");
     console.log(count);
+}
+// Enables Dev Mode
+function EnableDevMode(){
+    var docHead = document.head;
+    var script = document.createElement ('script');
+    script.type = 'text/javascript';
+    script.src = 'scripts/debug.js';
+    script.async = true;
+   
+    docHead.appendChild (script);
 }
