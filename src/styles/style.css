@@ -64,3 +64,9 @@ div.reset{
 div.final, button#final {
     width:200px;
 }
+.basic{
+    display:block;
+}
+.fraction{
+    display:block;
+}

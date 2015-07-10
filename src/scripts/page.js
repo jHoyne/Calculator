@@ -20,10 +20,18 @@ function EnableDevMode(){
     docHead.removeChild (script);
 }
 // Toggle Basic
-function toggle_visibility(id) {
-   var element = document.getElementById(id);
+function toggle_visibility(basic) {
+   var element = document.getElementById("basic");
    if(element.style.display == 'block')
       element.style.display = 'none';
    else
       element.style.display = 'block';
+}
+// Toggle Fraction
+function toggle_visibility(fraction){
+    var element = document.getElementById("fraction");
+    if(element.style.display == 'block')
+       element.style.display = 'none';
+    else
+       element.style.display = 'block';
 }
