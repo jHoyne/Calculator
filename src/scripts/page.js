@@ -20,7 +20,7 @@ function EnableDevMode(){
     docHead.removeChild (script);
 }
 // Toggle Basic
-function toggle_visibility(basic) {
+function toggle_visibility_basic() {
    var element = document.getElementById("basic");
    if(element.style.display == 'block')
       element.style.display = 'none';
@@ -28,7 +28,7 @@ function toggle_visibility(basic) {
       element.style.display = 'block';
 }
 // Toggle Fraction
-function toggle_visibility(fraction){
+function toggle_visibility_fraction(){
     var element = document.getElementById("fraction");
     if(element.style.display == 'block')
        element.style.display = 'none';
