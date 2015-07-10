@@ -17,21 +17,13 @@ function EnableDevMode(){
     script.src = 'scripts/debug.js';
     script.async = false;
    
-    docHead.removeChild (script);
+    docHead.appendChild (script);
 }
 // Toggle Basic
 function toggle_visibility_basic() {
-   var element = document.getElementsByClassName("basic");
-   if(element.style.display == 'block')
-      element.style.display = 'none';
-   else
-      element.style.display = 'block';
+
 }
 // Toggle Fraction
 function toggle_visibility_fraction(){
-    var element = document.getElementsByClassName("fraction");
-    if(element.style.display == 'block')
-       element.style.display = 'none';
-    else
-       element.style.display = 'block';
+    
 }
