@@ -17,5 +17,13 @@ function EnableDevMode(){
     script.src = 'scripts/debug.js';
     script.async = false;
    
-    docHead.removeChild (script);
+    docHead.appendChild (script);
+}
+// Toggle Basic
+function toggle_visibility_basic() {
+
+}
+// Toggle Fraction
+function toggle_visibility_fraction(){
+    
 }
