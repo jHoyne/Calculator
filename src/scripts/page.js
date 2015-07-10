@@ -21,7 +21,7 @@ function EnableDevMode(){
 }
 // Toggle Basic
 function toggle_visibility_basic() {
-   var element = document.getElementById("basic");
+   var element = document.getElementByClassName("basic");
    if(element.style.display == 'block')
       element.style.display = 'none';
    else
@@ -29,7 +29,7 @@ function toggle_visibility_basic() {
 }
 // Toggle Fraction
 function toggle_visibility_fraction(){
-    var element = document.getElementById("fraction");
+    var element = document.getElementByClassName("fraction");
     if(element.style.display == 'block')
        element.style.display = 'none';
     else
