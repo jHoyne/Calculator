@@ -2,9 +2,7 @@
 A webpage that is just a Basic calculator at the moment will be more in the future.
 
 <b>News</b>
-<ul>
-<li>Now with Fraction Support (July 4 2015)</li>
-</ul>
+NONE
 
 <b>Installation</b>
 <ol>
