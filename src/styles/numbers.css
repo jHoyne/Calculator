@@ -1,0 +1,69 @@
+button.number {
+    width:40px;
+    margin-left:.01px;
+}
+button.number:hover, button.numberC:hover {
+    color:magenta;
+}
+button.fraction {
+    width:40px;
+    margin-left:.01px;
+}
+button.add {
+    width:20px;
+    margin-left:.01px;
+}
+button.add:hover {
+    color:teal;
+}
+button.subtract {
+    width:20px;
+    margin-left:.01px;
+}
+button.subtract:hover {
+    color:gold;
+}
+button#subC {
+    margin-left: 1px;
+}
+button.multiply {
+    width:20px;
+    margin-left:.01px;
+}
+button.multiply:hover {
+    color:royalblue;
+}
+button.divide {
+    width:20px;
+    margin-left:.01px;
+}
+button.divide:hover {
+    color:darkorange;
+}
+button#fifty-d {
+    margin-left:24px;
+}
+button.reset {
+    width:150px;
+}
+button.reset:hover {
+    color:tomato;
+}
+div#one, div#two, div#three, div#four, div#five, div#ten {
+    width:200px;
+}
+div#fifty, div#hundred, div#fivehundred, div#thousand {
+    width:200px;
+}
+div#customA{
+    width:200px;
+}
+div.reset{
+    width:250px;
+}
+button#final {
+    width:200px;
+}
+div.final{
+    
+}
