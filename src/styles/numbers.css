@@ -61,6 +61,9 @@ div#customA{
 div.reset{
     width:250px;
 }
-div.final, button#final {
+button#final {
     width:200px;
+}
+div.final{
+    
 }
