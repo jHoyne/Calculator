@@ -1,4 +1,4 @@
-//Global Variables
+do//Global Variables
 var count = 0;
 //Clears Value of 'final'
 function reset() {
